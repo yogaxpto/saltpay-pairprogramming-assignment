@@ -1,6 +1,11 @@
 from unittest import TestCase
+import csv
 
-import main
+
+
+def main():
+    with open('file.csv', newline='') as csvfile:
+
 
 
 class MainTest(TestCase):
